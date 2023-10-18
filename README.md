@@ -15,7 +15,7 @@ já as outras duas funções criam ou um quadrado um uma imagem com listras na c
 Arquivos .png podem ser abertos se instanciados com o nome e tipos corretos chamando a função **openImage()**
 
 ---
-## Atividade01
+## Atividade02
 Seguindo os passos da seção 3 do [artigo](https://raytracing.github.io/books/RayTracingInOneWeekend.html#outputanimage/theppmimageformat)
 
 *As classes podem ser vistas com mais detalhes no **javadoc**
