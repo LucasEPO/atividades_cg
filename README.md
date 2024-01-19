@@ -30,3 +30,10 @@ As 3 classes de matrizes possuem as mesmas funções funcionando apenas para tam
 As funções para matrizes são **get()**, **set()**, **add()**, **subtract()**, **divide()**, **multiply()**, essa pode ser por um escalar ou por outra matriz de mesma dimensão, **negate()**, **determinant()** e **inverse()**.
 
 ---
+## Atividade03
+*As classes podem ser vistas com mais detalhes no **javadoc**
+
+Para esta atividade baixei o seguinte arquivo [girlOBJ](https://free3d.com/3d-model/girl-blind-703979.html);
+Ao analisar os arquivos OBJ, criei tres classes apenas para caso precise lidar de modo diferente em cada uma delas no futuro, basicamente as classes **Vertice** é referente a linha do OBJ que inicia com **v**, **Normais** relacionado as coordenadas do OBJ com inicio **vn**, ambos apenas criam um objeto com três coordenadas x, y e z, a classe **CoordenadasTextura** refere-se as cordenadas de textura presente no arquivo OBJ, linhas com ínicio **vt**, esta cria um objeto com duas coordenadas u e v, Há também a classe **Faces** que guarda os indices presententes em cada ponto de iniciado por **f** no OBJ, estes indícies são guardados em arrays e fazem referência a vértices, normais e texturas relacionado àquela face. A classe principal da Atividade03 é a **IOObj**, ela possui apenas dois metodos **readObj()** que le um arquivo .obj e conta a quantidade de vértices, normais, texturas e faces, e a outra função é só um **toString()** para imprimir a quantidade de cada um dos valores.
+
+Apenas a classe IOObj possui testes, uma vez que as outras 4 possuem apenas o construtor por enquanto.
